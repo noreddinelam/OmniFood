@@ -18,6 +18,7 @@ header {
     url(./images/hero.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -75,6 +76,36 @@ a:hover,
 a:active {
   color: #555;
   border-bottom: 1px solid transparent;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  margin-bottom: 40;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .clearfix {
@@ -300,4 +331,13 @@ a:active {
   vertical-align: middle;
   margin-top: -4px;
   margin-right: 10px;
+}
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./images/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
 }
