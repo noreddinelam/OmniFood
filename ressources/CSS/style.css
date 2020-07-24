@@ -164,3 +164,25 @@ section {
   color: #e67e22;
   margin-bottom: 10px;
 }
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meals-showcase li figure {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.meals-showcase li figure img {
+  width: 100%;
+  height: auto;
+}
